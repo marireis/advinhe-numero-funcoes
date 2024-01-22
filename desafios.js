@@ -46,6 +46,7 @@
 
 
     Desafios
+
 1. Crie uma função que calcule o índice de massa corporal (IMC) de uma pessoa, a partir de sua altura, em metros, e peso, em quilogramas, que serão recebidos como parâmetro.
 
     function calculoImc(altura, peso) {
@@ -123,3 +124,31 @@
     // Exemplo de uso
     let numero = 7;
     mostrarTabuada(numero);
+
+    Desafios
+
+Crie uma lista vazia, com o nome listaGenerica.
+
+    let listaGenerica = []
+
+Crie uma lista de linguagens de programação chamada linguagensDeProgramacao com os seguintes elementos: 'JavaScript','C','C++', 'Kotlin' e 'Python'.
+
+    let linguagemDeProgramacao = ['JavaScript','C','C++','Kotlin','Python']
+
+Adicione à lista linguagensDeProgramacao os seguintes elementos: 'Java', 'Ruby' e 'GoLang'.
+
+    let linguagemDeProgramacao = ['JavaScript','C','C++','Kotlin','Python']
+    linguagemDeProgramacao.push('Java','Ruby','GoLang')
+
+Crie uma lista com 3 nomes e exiba no console apenas o primeiro elemento.
+    let nomes = ['Maria', 'Joao', 'Jose']
+    console.log(nomes[0])
+
+Crie uma lista com 3 nomes e exiba no console apenas o segundo elemento.
+    let nomes = ['Maria', 'Joao', 'Jose']
+    console.log(nomes[1])
+
+Crie uma lista com 3 nomes e exiba no console apenas o último elemento.
+
+    let nomes = ['Maria', 'Joao', 'Jose']
+    console.log(nomes[2])
